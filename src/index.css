@@ -40,6 +40,7 @@ html {
 
 body::-webkit-scrollbar {
   display: none; /* Hide the scrollbar for webkit-based browsers (Chrome/Safari) */
+  /* heyyy */
 }
 
 .content-text{
