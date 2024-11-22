@@ -50,7 +50,6 @@ function Hamnav() {
 
   const handleClose = () => {
     setClosing(true); // Trigger closing animation
-    console.log("Closing triggered"); // Check if handleClose is called
   };
 
   return (
