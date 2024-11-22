@@ -28,14 +28,7 @@ function Contactform() {
       message,
     };
 
-    console.log
-    (templateParams,
-     'hey'+
-     import.meta.env.VITE_EMAILJS_SERVICE_ID,
-     import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-     templateParams,
-     import.meta.env.VITE_EMAILJS_USER_ID
-    )
+    console.log(templateParams)
   
     emailjs
       .send(
@@ -61,6 +54,12 @@ function Contactform() {
       );   
     
   };
+  
+  console.log('hey'+
+    import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    import.meta.env.VITE_EMAILJS_USER_ID
+  )
 
   return (
     <form
