@@ -42,7 +42,7 @@ function Page1() {
         className="Page1_main flex justify-start items-center  w-full h-[100%] rounded-[30px] relative overflow-hidden 
         bg-[url('https://static.wixstatic.com/media/f1c650_678c0ceab5194893872c60fa3be4bcdc~mv2.jpg/v1/fill/w_1322,h_614,fp_0.69_0.64,q_85,usm_0.66_1.00_0.01,enc_auto/ANZO.jpg')] bg-cover bg-center]"
       >
-        <div className="content-text relative">
+        <div className="content-text relative mt-[-80px] sm:mt-0">
           <Tilttext ref={tiltRef} />
         </div>
         <Bottomtext />

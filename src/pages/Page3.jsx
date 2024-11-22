@@ -39,7 +39,7 @@ function Page3() {
 
   return (
     <div className="laptopWindowsBox h-[50vh] sm:h-screen w-full flex justify-center items-center">
-      <div className="laptopWrapper w-[90%] sm:w-[70%] h-[80%] sm:h-[80%]  flex justify-center items-center">
+      <div className="laptopWrapper w-[90%] sm:w-[70%] h-[60%] sm:h-[80%]  flex justify-center items-center">
         <img
           className="innerlaptop relative z-50 w-full h-full"
           src={laptopimage}

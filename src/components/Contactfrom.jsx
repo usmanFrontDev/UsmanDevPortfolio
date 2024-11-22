@@ -28,7 +28,14 @@ function Contactform() {
       message,
     };
 
-    console.log(templateParams)
+    console.log
+    (templateParams,
+     'hey'+
+     import.meta.env.VITE_EMAILJS_SERVICE_ID,
+     import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+     templateParams,
+     import.meta.env.VITE_EMAILJS_USER_ID
+    )
   
     emailjs
       .send(
