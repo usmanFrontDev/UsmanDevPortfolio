@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+@font-face {
+  font-family: anzo1;
+  src: url('./assets/fonts/jem3.woff2');
+}
+@font-face {
+  font-family: anzo2;
+  src: url('./assets/fonts//madefor-text.var.original.woff2');
+}
+@font-face {
+  font-family: anzo3;
+  src: url('./assets/fonts//jem2.woff2');
+}
+@font-face {
+  font-family: anzo4;
+  src: url('./assets/fonts/jem6.woff2');
+}
+@font-face {
+  font-family: ThinAnzo;
+  src: url('./assets/fonts//file.woff2');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for webkit-based browsers (Chrome/Safari) */
+}
+
+.content-text{
+  position: relative;
+  perspective: 1000px;
+}
+
+.Page1_main{
+  box-shadow: 1px 1px 25px 3px #a7a7a7;
+}
+
+.img_div{
+  animation-duration: 5s;
+}
+
+.heaidng_box{
+  position: relative;
+  perspective: 1000px;
+}
+
+
+.laptopWindowsBox{
+  position: relative;
+  perspective: 1400px;
+}
+
+.laptopWrapper{
+  transform-origin: left;
+  transform: rotateX(40deg) rotateY(-30deg);
+  animation: animation12 2s ease-in-out;
+}
+
+.page4_main{
+  perspective: 2000px;
+}
+
+
+
+.projectbox{
+  box-shadow: 1px 1px 25px 3px #a7a7a7;
+}
+.aboutpage-_1{
+  box-shadow:none;
+}
+
+
+
+
+
+
+.potraitPicture{
+  background-image: none;
+  background-color: transparent;
+}
+
+
+@media screen and (max-width: 640px){
+.potraitPicture{
+  background-image: url('../src/assets/Images/about\ me\ potrait.jpg');
+  background-color: #00000083;
+}
+
+.aboutpage-_1{
+  box-shadow: 1px 1px 25px 3px #a7a7a7;
+}
+}
+
+  .customBg{
+    width: fit-content;
+   background: linear-gradient(to right, white 40%, #3B82F6 60%);
+  -webkit-background-clip: text;  
+  text-transform: capitalize;
+  color: transparent; 
+  }
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.astronotdiv{
+  background-image: url('../src/assets/Images/astronot.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
