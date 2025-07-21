@@ -1,7 +1,7 @@
 // import portfolioImg from "../assets/Images/project-1-img.png";
 import pepsiImg from "../assets/images/pepsi-image.png";
 import devoidsImg from "../assets/Images/devoids-image.png";
-import portfolioImg from "../assets/images/portoflio-img.png";
+import portfolioImg from "../assets/images/portfolio-img.png";
 import equipmentImg from "../assets/images/equipment-image.png";
 import manelinkImg from "../assets/images/manelink-image.png";
 import piceptImg from "../assets/images/picept-image.png";
