@@ -1,17 +1,17 @@
 // import portfolioImg from "../assets/Images/project-1-img.png";
-import devoidsImg from "../assets/images/devoids-image.png";
-import pepsiImg from "../assets/images/pepsi-image.png";
-import portfolioImg from "../assets/images/portfolio-img.png";
-import equipmentImg from "../assets/images/equipment-image.png";
-import manelinkImg from "../assets/images/manelink-image.png";
-import piceptImg from "../assets/images/picept-image.png";
+import devoidsImg from "../assets/Images/devoids-image.png";
+import pepsiImg from "../assets/Images/pepsi-image.png";
+import portfolioImg from "../assets/Images/portfolio-img.png";
+import equipmentImg from "../assets/Images/equipment-image.png";
+import manelinkImg from "../assets/Images/manelink-image.png";
+import piceptImg from "../assets/Images/picept-image.png";
 
-import pepsiVideo from "../assets/videos/pepsi-video.mp4";
-import devoidsVideo from "../assets/videos/devoids-video.mp4";
-import portfolioVideo from "../assets/videos/portfolio-video.mp4";
-import equipmentVideo from "../assets/videos/equipment-video.mp4";
-import manelinkVideo from "../assets/videos/manelink-video.mp4";
-import piceptVideo from "../assets/videos/picept-video.mp4";
+import pepsiVideo from "../assets/Videos/pepsi-video.mp4";
+import devoidsVideo from "../assets/Videos/devoids-video.mp4";
+import portfolioVideo from "../assets/Videos/portfolio-video.mp4";
+import equipmentVideo from "../assets/Videos/equipment-video.mp4";
+import manelinkVideo from "../assets/Videos/manelink-video.mp4";
+import piceptVideo from "../assets/Videos/picept-video.mp4";
 
 export const Page2HeadingContent = [
   "Impactful ",
