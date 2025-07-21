@@ -1,3 +1,18 @@
+// import portfolioImg from "../assets/Images/project-1-img.png";
+import pepsiImg from "../assets/images/pepsi-image.png";
+import devoidsImg from "../assets/Images/devoids-image.png";
+import portfolioImg from "../assets/images/portoflio-img.png";
+import equipmentImg from "../assets/images/equipment-image.png";
+import manelinkImg from "../assets/images/manelink-image.png";
+import piceptImg from "../assets/images/picept-image.png";
+
+import pepsiVideo from "../assets/videos/pepsi-video.mp4";
+import devoidsVideo from "../assets/videos/devoids-video.mp4";
+import portfolioVideo from "../assets/videos/portfolio-video.mp4";
+import equipmentVideo from "../assets/videos/equipment-video.mp4";
+import manelinkVideo from "../assets/videos/manelink-video.mp4";
+import piceptVideo from "../assets/videos/picept-video.mp4";
+
 export const Page2HeadingContent = [
   "Impactful ",
   "interfaces ",
@@ -28,55 +43,77 @@ export const options = [
 export const projects = [
   {
     id: 1,
-    img: "https://img.freepik.com/free-psd/template-concept-coffee-shop_23-2148436953.jpg?t=st=1730834028~exp=1730837628~hmac=1eae937cd14a98c65aedff1a831818acb6e96a4a1d3a96f42ca4069637ded4e6&w=996",
-    name: "Responsive Portfolio",
-    tags: ["HTML", "CSS", "JavaScript"],
-    desc: `A clean, responsive portfolio website showcasing projects, designed with modern UI principles.`,
+    img: pepsiImg,
+    video: pepsiVideo,
+    name: "Pepsi 3D Storytelling Website",
+    tags: ["HTML", "CSS", "GSAP", "JavaScript"],
+    desc: `Built during a global hackathon to showcase Pepsi products with an engaging, animated 3D storytelling experience, combining development and design skills.`,
   },
   {
     id: 2,
-    img: "https://img.freepik.com/premium-photo/ecommerce-banners-popular-website-featuring-trending-products-customer-reviews-job-id-b722e216e9b94f7f8c39168b0e0f0b78_1302551-660.jpg?w=740",
-    name: "E-Commerce Store",
-    tags: ["React", "Redux", "Firebase"],
-    desc: `A fully functional e-commerce website with user authentication, cart management, and product filters.`,
+    img: devoidsImg,
+    video: devoidsVideo,
+     name: "Devoids Web Agency",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "GSAP",
+      "Three.js",
+      "Shery.js",
+      "Email.js",
+      "Tilt.js",
+      "Swiper.js",
+      "Lenis",
+    ],
+    desc: `A modern web development agency website with minimalistic 3D design, advanced animations, and smooth interactions. Entirely designed and developed by me, featuring immersive shaders and top-notch performance.`,
   },
   {
     id: 3,
-    img: "https://img.freepik.com/free-vector/smart-home-management-application_23-2148621994.jpg?t=st=1730834668~exp=1730838268~hmac=a39768e817c1078867225af1aca69ca4fabd8fd910d086ca639025a98222aec3&w=740",
-    name: "Social Media Dashboard",
-    tags: ["Vue", "Vuetify", "Chart.js"],
-    desc: `A dashboard that provides user engagement metrics and social media performance visualized with charts.`,
+    img: portfolioImg,
+    video: portfolioVideo,
+   name: "Portfolio Website",
+  tags: ["React", "TypeScript", "Tailwind CSS", "GSAP", "EmailJS", "ScrollTrigger", "Tile.js"],
+  desc: `A storytelling portfolio showcasing 2.5 years of frontend expertise, built with React and Tailwind, featuring GSAP animations and award‑style design.`,
   },
   {
     id: 4,
-    img: "https://img.freepik.com/premium-vector/free-vector-template-mobile-application_332532-5.jpg?w=740",
-    name: "Weather Forecast App",
-    tags: ["JavaScript", "OpenWeather API", "CSS"],
-    desc: `A simple weather app that provides current weather data and a 7-day forecast for any city worldwide.`,
-  },
+    img: equipmentImg,
+    video: equipmentVideo,
+     name: "EquipmentDaddy Marketplace",
+  tags: [
+    "Next.js 13",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "EmailJS",
+    "React Query"
+  ],
+  desc: `A customer-focused on‑demand machinery repair portal built with Next.js 13, TypeScript, Tailwind, Framer Motion, EmailJS, and React Query. Users can create repair jobs, connect with certified technicians, track their arrival in real time, pay securely, and leave reviews—all via an interactive and high-performance web app.`
+},
   {
     id: 5,
-    img: "https://img.freepik.com/free-vector/dashboard-admin-panel-template-with-gradient-style_23-2147884724.jpg?t=st=1730835048~exp=1730838648~hmac=b250a4853e6e45a1d3ec3ee2d3ca0a1e413a1afaa938e426ddd76e19b12ae8e3&w=740",
-    name: "Task Management System",
-    tags: ["Node.js", "Express", "MongoDB"],
-    desc: `A RESTful task management application where users can create, read, update, and delete tasks.`,
-  },
+    img: manelinkImg,
+    video: manelinkVideo,
+   name: "ManeLink Inventory Management System",
+tags: ["React", "TypeScript", "Redux", "Tailwind CSS", "Framer Motion"],
+  desc: `An inventory & asset management platform for SMBs, featuring real-time stock visibility, automated low-stock alerts, and team collaboration. Developed key frontend modules with React, TypeScript, Redux, Tailwind, and Framer Motion.`
+},
   {
     id: 6,
-    img: "https://img.freepik.com/premium-vector/banking-mobile-app-splash-screen-templates-three-options_1302-27727.jpg?w=740",
-    name: "Personal Finance Tracker",
-    tags: ["React", "Context API", "Material-UI"],
-    desc: `A personal finance tracker that helps users log and categorize expenses and view monthly reports.`,
-  },
-  {
-    id: 7,
-    img: "https://img.freepik.com/free-psd/minimal-blog-website-landing-page_23-2149668492.jpg?t=st=1730835290~exp=1730838890~hmac=9fd2838ce6cae7dec86bf18154e08f6d027dc87e2352439594d06ac6670d70cc&w=826",
-    name: "Blogging Platform",
-    tags: ["Django", "Python", "Bootstrap"],
-    desc: `A blogging platform where users can register, write posts, and interact with other users through comments.`,
-  },
+    img: piceptImg,
+    video: piceptVideo,
+     name: "Picept AI Monitoring Platform",
+  tags: [
+    "Next.js",
+    "Framer Motion",
+    "Tailwind CSS",
+    "Recharts",
+    "React Tables"
+  ],
+  desc: `An AI operations dashboard built with Next.js, Tailwind, Framer Motion, Recharts, and React Tables. It provides real‑time monitoring, smart routing, alerting, and performance analytics for AI systems, with interactive charts and tables for deep insights.`
+}
 ];
-
 
 
 
