@@ -80,7 +80,6 @@ function Work() {
                   <video
                     ref={videoRef}
                     src={project.video}
-                    loop
                     muted
                     className="absolute top-0 left-0 w-full h-full object-cover rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out"
                     style={{ willChange: "opacity" }}

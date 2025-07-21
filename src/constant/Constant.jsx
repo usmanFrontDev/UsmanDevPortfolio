@@ -6,12 +6,7 @@ import equipmentImg from "../assets/Images/equipment-image.png";
 import manelinkImg from "../assets/Images/manelink-image.png";
 import piceptImg from "../assets/Images/picept-image.png";
 
-import pepsiVideo from "../assets/Videos/pepsi-video.mp4";
-import devoidsVideo from "../assets/Videos/devoids-video.mp4";
-import portfolioVideo from "../assets/Videos/portfolio-video.mp4";
-import equipmentVideo from "../assets/Videos/equipment-video.mp4";
-import manelinkVideo from "../assets/Videos/manelink-video.mp4";
-import piceptVideo from "../assets/Videos/picept-video.mp4";
+
 
 export const Page2HeadingContent = [
   "Impactful ",
@@ -44,7 +39,7 @@ export const projects = [
   {
     id: 1,
     img: pepsiImg,
-    video: pepsiVideo,
+    video: "https://res.cloudinary.com/dmiozhmko/video/upload/v1753115366/mj7bjx85edalqg44mr9l.mp4",
     name: "Pepsi 3D Storytelling Website",
     tags: ["HTML", "CSS", "GSAP", "JavaScript"],
     desc: `Built during a global hackathon to showcase Pepsi products with an engaging, animated 3D storytelling experience, combining development and design skills.`,
@@ -52,7 +47,7 @@ export const projects = [
   {
     id: 2,
     img: devoidsImg,
-    video: devoidsVideo,
+    video: "https://res.cloudinary.com/dmiozhmko/video/upload/v1753116452/ckcfcawclrnzfgcwzoh5.mp4",
      name: "Devoids Web Agency",
     tags: [
       "HTML",
@@ -71,7 +66,7 @@ export const projects = [
   {
     id: 3,
     img: portfolioImg,
-    video: portfolioVideo,
+    video: "https://res.cloudinary.com/dmiozhmko/video/upload/v1753116579/p5vnnrudawq7q2kfc3vs.mp4",
    name: "Portfolio Website",
   tags: ["React", "TypeScript", "Tailwind CSS", "GSAP", "EmailJS", "ScrollTrigger", "Tile.js"],
   desc: `A storytelling portfolio showcasing 2.5 years of frontend expertise, built with React and Tailwind, featuring GSAP animations and award‑style design.`,
@@ -79,7 +74,7 @@ export const projects = [
   {
     id: 4,
     img: equipmentImg,
-    video: equipmentVideo,
+    video: "https://res.cloudinary.com/dmiozhmko/video/upload/v1753115641/kdpako4njkvucg953yxj.mp4",
      name: "EquipmentDaddy Marketplace",
   tags: [
     "Next.js 13",
@@ -94,7 +89,7 @@ export const projects = [
   {
     id: 5,
     img: manelinkImg,
-    video: manelinkVideo,
+    video: "https://res.cloudinary.com/dmiozhmko/video/upload/v1753115781/xyi48iwbyy8b7sxs5pdk.mp4",
    name: "ManeLink Inventory Management System",
 tags: ["React", "TypeScript", "Redux", "Tailwind CSS", "Framer Motion"],
   desc: `An inventory & asset management platform for SMBs, featuring real-time stock visibility, automated low-stock alerts, and team collaboration. Developed key frontend modules with React, TypeScript, Redux, Tailwind, and Framer Motion.`
@@ -102,7 +97,7 @@ tags: ["React", "TypeScript", "Redux", "Tailwind CSS", "Framer Motion"],
   {
     id: 6,
     img: piceptImg,
-    video: piceptVideo,
+    video: "https://res.cloudinary.com/dmiozhmko/video/upload/v1753115889/b1tulpekaqhnoaefge46.mp4",
      name: "Picept AI Monitoring Platform",
   tags: [
     "Next.js",
